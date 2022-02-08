@@ -11,3 +11,6 @@ Conteúdo visto:
 - Listas mistas e de definição
 - Links internos, externos e âncoras
 - Links para download
+- Imagens Dinâmicas e que se adpatam sozinhas
+- Áudios
+- Vídeos internos e externos
