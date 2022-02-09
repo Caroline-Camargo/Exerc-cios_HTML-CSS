@@ -14,3 +14,4 @@ Conteúdo visto:
 - Imagens Dinâmicas e que se adpatam sozinhas
 - Áudios
 - Vídeos internos e externos
+- CSS inline, locais ou internos e externos
