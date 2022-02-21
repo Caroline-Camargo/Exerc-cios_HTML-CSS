@@ -15,3 +15,9 @@ Conteúdo visto:
 - Áudios
 - Vídeos internos e externos
 - CSS inline, locais ou internos e externos
+- Psicologia das Cores
+- Harmonia das cores
+- Paleta de cores
+- Representando cores com CSS
+- Degradê com CSS
+- Tipografia
