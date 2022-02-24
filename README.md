@@ -22,6 +22,12 @@ Conteúdo visto:
 - Degradê com CSS
 - Tipografia
 - Anatomia dos Tipos
+- Famílias e Tamanhos de fontes com CSS
+- Peso, estilo e shorthand font
+- Google Fonts e fontes externas
+- Alinhamento de Textos com CSS
+- ID e Class 
+- Pseudo-classes e Pseudo-elementos
 
 
 <img width="948" alt="image" src="https://user-images.githubusercontent.com/88254161/155010064-f5ccf68a-4747-418c-8fae-368ca7c3eecc.png">
