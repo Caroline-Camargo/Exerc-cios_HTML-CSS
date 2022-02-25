@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Docs/html5.ico" type="image/x-icon">
+    <title>CURSO HTML 5 e CSS 3</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+       body{
+           font-family: 'Allerta Stencil', Arial, Helvetica, sans-serif;
+           background-color: #1a7a62;
+           margin: 0px;
+           text-align: justify;
+       }
+       h1{
+           text-shadow: 4px 1px 1px #051a14;
+       }
+       p{
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+       header{
+           background-color: #1a7a62;
+           color: white;
+           padding: 1px 20px 20px 20px;
+           margin: 0px;
+       }
+       nav > a{
+           background-color: #152915;
+           padding: 3px 15px;
+           text-decoration: none;
+           color: white;
+           font-weight: bold;
+           margin-right: 38px;
+           padding-left: 8px;
+           padding-right: 15px;
+           padding-top: 8px;
+           padding-bottom: 8px;
+           box-shadow: 1px 1px 1px 1px white;
+           border-radius: 5px;
+       }
+       nav > a:hover{
+           text-decoration: underline;
+           color: #1a7a62;
+           background-color: white;
+           box-shadow: 1px 1px 1px 1px #051a14;
+       }
+       
+       main{
+           background-color: white;
+           padding: 10px;
+           margin: 10px;
+           border-radius: 20px 20px 0px 0px;
+       }
+       article{
+           background-color: #f0efef;
+           padding: 5px;
+       }
+       article > aside{
+           background-color: #1a7a62;
+           font-style: normal;
+           font-weight: bold;
+           color: white;
+       }
+       aside > p{
+           padding: 10px 5px;
+       }
+       footer{
+           background-color: #152915;
+           color: white;
+           text-align: center;
+           padding: 1px;
+           margin: 0px;
+       }
+       a{
+           color: white;
+       }
+       .tamanho{
+           font-size: 1.01em
+       }
+       #borda{
+           text-shadow: none;
+           border: 20px solid black;
+           padding: 10px;
+           border-image-source: url('Docs/borda.png');
+           border-image-slice: 31;
+           border-image-repeat: repeat;
+           text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><h1>Grouping Tags</h1></h1>
+        <nav>
+            <a href="#" class="tamanho">Link A</a>
+            <a href="#" class="tamanho">Link B</a>
+            <a href="#" class="tamanho">Link C</a>
+            <a href="#" class="tamanho">Link D</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <h2>Esportes Política Tecnologia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, nisi dolor, illum facilis, ducimus eveniet architecto necessitatibus a placeat assumenda suscipit odio sunt mollitia minus. Non assumenda cum recusandae ut.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis nam vitae cum debitis explicabo officia itaque exercitationem perferendis distinctio quae aliquid molestias consequuntur quos consectetur veritatis commodi placeat, blanditiis eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo modi dolorem iste veritatis numquam quas cupiditate vero a omnis dignissimos, hic neque non soluta distinctio? Blanditiis adipisci iusto est minus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vero cumque nostrum distinctio hic mollitia, quisquam nemo at minima cum perferendis beatae provident ipsam eveniet id amet aspernatur maiores blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, accusamus? Modi, nulla omnis! Totam possimus quod quidem pariatur, neque aut iste beatae voluptatem veritatis perferendis est provident? Distinctio, possimus fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste explicabo magni tenetur nulla dignissimos. Officia, excepturi quaerat architecto, assumenda deleniti atque, ullam qui explicabo ab quae officiis unde voluptatibus quia.</p>
+            <h3>Subtitulo</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione saepe incidunt neque consequuntur, quia vitae, voluptatem, officiis atque deserunt enim rerum obcaecati quae consectetur! Porro ipsa enim esse? Aliquid, vitae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus corporis beatae laudantium minima minus, laboriosam atque ducimus accusantium labore ut quia alias et? Incidunt esse necessitatibus laboriosam eaque error quibusdam.</p>
+            <h3 id="borda">Teste de Borda Decorada</h3>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet rem iusto voluptates. Molestiae, nesciunt distinctio odio dolore laudantium vel voluptatibus excepturi ea neque numquam nemo, facilis quidem eveniet commodi voluptate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero sit libero eaque dolore accusantium velit sequi aspernatur, voluptatem aut. Reprehenderit magnam praesentium ea! Odio ea illo soluta mollitia, ipsum quae!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Caroline-Camargo</p>
+        <p><a href="Exercício 21.html">Página anterior</a>  -  <a href="Exercício 23.html" rel="next">Próxima página</a></p>
+    </footer>
+
+</body>
+</html>

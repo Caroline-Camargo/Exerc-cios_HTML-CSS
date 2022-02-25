@@ -28,6 +28,10 @@ Conteúdo visto:
 - Alinhamento de Textos com CSS
 - ID e Class 
 - Pseudo-classes e Pseudo-elementos
+- Modelo de Caixas 
+- Grouping Tags
+- Sombras nas caixas e vértices arredondados
+- Bordas Decoradas
 
 
 <img width="948" alt="image" src="https://user-images.githubusercontent.com/88254161/155010064-f5ccf68a-4747-418c-8fae-368ca7c3eecc.png">
